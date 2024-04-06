@@ -1,0 +1,8 @@
+#set version. We use 2
+version: '2'
+
+#services list. we use image "second" and start script "simple.sh"
+services:
+  s1:
+    image: second
+    command: ./simple.sh
